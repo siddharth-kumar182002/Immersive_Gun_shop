@@ -1,0 +1,11 @@
+Model Information:
+* title:	Submachine Gun
+* source:	https://sketchfab.com/3d-models/submachine-gun-85d319704eba40678af7e64df81ec58d
+* author:	J.J.West (https://sketchfab.com/jw202471)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Submachine Gun" (https://sketchfab.com/3d-models/submachine-gun-85d319704eba40678af7e64df81ec58d) by J.J.West (https://sketchfab.com/jw202471) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
