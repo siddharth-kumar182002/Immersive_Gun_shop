@@ -1,4 +1,4 @@
-# Three.js Interactive Scene with Pointer Lock Controls
+# Immersive Shopping Mall using Three.js
 
 This project demonstrates an interactive 3D scene built with Three.js, featuring pointer lock controls, raycasting, and dynamic content loading. The scene includes various 3D models (e.g., guns) that can be selected to display information in a modal dialog.
 
