@@ -36,6 +36,8 @@ This project demonstrates an interactive 3D scene built with Three.js, featuring
 
     This will start a local server and open the project in your default web browser. The server will automatically reload as you make changes to the code.
 
+##HOSTED at Netlify(NOTE it will take a lot of time to load due to large models)
+https://bihari-katta.netlify.app/
 
 ## Usage
 
