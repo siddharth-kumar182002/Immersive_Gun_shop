@@ -36,19 +36,21 @@
             top: 50%;
             width: 50px;
             height: 50px;
-            margin-left: -25px; /* Half of the width to center it */
-            margin-top: -25px; /* Half of the height to center it */
-            /*background: url('./crosshair.png') no-repeat center;*/
+            margin-left: -25px; 
+            margin-top: -25px; 
+            
             visibility: hidden;
-            pointer-events: none; /* Make sure it doesn't block mouse events */
-            z-index: 10; /* Ensure it's on top of other elements */
+            pointer-events: none; 
+            z-index: 10;
         }
 
         #loading-screen {
             position: fixed;
             width: 100%;
             height: 100%;
-            background: #000;
+            background-image:url(./Gun_Shop_image.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
             color: white;
             display: flex;
             justify-content: center;
@@ -66,11 +68,14 @@
         .progress-bar {
             width: 0%;
         }
+        h1 {
+            color:#ADFF2F;
+          }
     </style>
 </head>
 <body>
     <div id="loading-screen">
-        Loading...
+        <h1>BIHARI KATTA 3-D Immersive Shop lOADING.....</h1>
         <div class="progress">
             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
         </div>
@@ -78,21 +83,21 @@
     <div id="blocker">
         <div id="instructions">
             <p style="font-size:36px">
-                Click to play
+                <h2>Click to Enter the SHOP</h2>
             </p>
             <p>
-                Move: WASD<br/>
-                Jump: SPACE<br/>
-                Look: MOUSE
+                <h2>To navigate use WASD keys for up,left,down,right respectively</h2><br/>
+                <h2>To look around use mouse</h2><br/>
+                <h2>Press ECS to exit</h2>
             </p>
         </div>
     </div>
     
     <img id="crosshair" src="./crosshair.png" alt="">
 
-    <!-- Bootstrap Modal -->
+   
     <div class="modal fade" id="gunModal" tabindex="-1" aria-labelledby="gunModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="gunModalLabel">Gun Selected</h5>
@@ -104,7 +109,7 @@
             You have selected a gun!
           </div>
           <div class="modal-footer">
-            <button type="button" id="close" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
